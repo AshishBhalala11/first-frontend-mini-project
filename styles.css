@@ -1,0 +1,240 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow|Oswald:400,300);
+@import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
+
+body{
+    font-family: 'PT Sans Narrow', Arial, sans-serif;
+}
+
+.top-bar{
+    border-bottom: 1px solid #f2f2f2;
+	background-color: #fff;    
+}
+
+.top-bar a {
+	color: #aaa;
+}
+
+.top-bar .contact-details li {
+	display: inline-block;
+    padding: 5px 15px;
+	line-height: 32px;
+    border-left: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.top-bar .contact-details li:last-child {
+    border-right: 1px solid #f2f2f2;
+}
+
+.top-bar .contact-details li a {
+	font-size: 14px;
+    letter-spacing: 1px;
+	display: block;
+	line-height: 32px;
+}
+
+.lens-photography a{
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    float: right;
+    font-weight: 700;
+    color: #ac2617;
+    text-align: right;    
+}
+
+.lens-photography a:hover{
+    color: #ac2617;
+    text-decoration: none;
+}
+
+#collapseable-nav li{
+    font-size: 20px;
+    padding: 0 20px 0 20px;
+}
+
+.banner {
+    text-align: center;
+    color: #fff;
+    background: url(./image/banner.jpeg) no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+}
+
+.banner .overlay {
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+}
+
+.intro-text {
+    position: relative;
+    padding: 23% 0 20% 0;
+}
+
+.banner .intro-text h1 {   
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: 5px;
+    margin-bottom: 55px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.banner .intro-text h1 span {
+    color: #be2f1f;
+}
+
+
+h1 {
+    font-weight: 400;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  
+h2 {
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    margin: 0;
+}
+  
+#image{
+    margin: 5px;
+}
+
+#image h2,h3{
+    font-family: 'Oswald', sans-serif;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+#header {
+    padding: 1.5rem;
+    text-align: center;
+    background: #333;
+    color: #fff;
+}
+  
+#header h2 {
+    border-left: dotted 1px #fff;
+    border-right: dotted 1px #fff;
+    display: inline-block;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.caption {
+    padding: 0.8rem;
+    text-align: center;
+}
+ul, ol{
+    list-style-type: none;
+}
+
+#ContactUs {
+    border-bottom: 1px solid #0f0f0f;
+    background: #222222;
+    color: #999;
+    font-weight: 400;
+    padding: 80px 0 60px;
+}
+
+#ContactUs h3{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+#office-add{
+    margin-left: 40px;
+}
+
+#footer-heading {
+    color: #c5c5c5;
+}
+
+
+#office-address ul li {
+    padding: 5px 0;
+}
+
+#office-address ul li a {
+    color: #9d9d9d;
+}
+
+#office-address ul li a:hover {
+    color: #FF432E;
+}
+
+#email,#number{
+    margin: 5px 0 5px 0;
+}
+
+#stay{
+    margin-bottom: 10px;
+}
+
+
+.form-group input{
+    display: block;
+}
+
+.form-group .text-box{
+    width: 300px;
+}
+
+#buttonSubscribe {
+    background: #ff432e;
+    border-color: #ff432e;
+    font-size: 16px;
+    padding: 8px 15px;
+}
+#buttonSubscribe:hover {
+    background: transparent;
+    border-color: #ff432e;
+    color: #ff432e;
+}
+
+.copyright-section {
+    border-top: 1px solid #363636;
+    font-size: 12px;
+    padding: 20px 0;
+    background: #1d1d1d;
+    color: #7f7f7f;
+}
+
+.copyright {
+    font-size: 16px;
+}
+
+.copyright-section a {
+    color: #7f7f7f;
+}
+
+.copyright-section a:hover {
+    text-decoration: none;
+    color: #FF432E;
+}
+
+.copyright-menu li {
+    display: inline;
+    padding-left: 10px;
+}
+
+.copyright-menu li a {
+    color: #7f7f7f;
+    font-weight: 500;
+}
+
+.copyright-menu li a.active {
+    color: #fff;
+    font-size: 13px;
+}
+
+.copyright-menu li a:hover {
+    text-decoration: none;
+    color: #FF432E;
+}
