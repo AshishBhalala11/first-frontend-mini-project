@@ -1,4 +1,4 @@
-<h3>Lend Photography</h3>
+<h3>Lens Photography</h3>
 
 Its basic frontend website using HTML, CSS and bootstrap as my first front end project.</br></br>
 At top of site contact info is provided as helpline number.</br></br>
